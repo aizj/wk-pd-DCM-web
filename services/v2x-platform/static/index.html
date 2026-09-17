@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据上车服务平台</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="layout">
+  <aside class="sider">
+    <div class="logo"><i>V</i><div>数据上车平台<br><span>V2X-PSC · P0-S4</span></div></div>
+    <nav class="menu" id="menu"></nav>
+  </aside>
+  <div class="main">
+    <header class="header">
+      <div class="seg" id="persona">
+        <button data-p="ops">运营控制台</button><button data-p="oem">车企门户</button><button data-p="gov">交警监管</button>
+      </div>
+      <div class="env">
+        <span class="tag gold" title="附录 E：授权路径未确认 + 统一出口未接入">情形 S4 · 受限运行</span>
+        <span class="tag blue" id="gateTag">门禁 —</span>
+        <span class="muted" style="font-size:13px">ops.demo</span><span class="avatar">运</span>
+      </div>
+    </header>
+    <div class="content"><div class="crumb" id="crumb"></div><div id="page"></div></div>
+  </div>
+</div>
+<script src="ui.js"></script><script src="pages.js"></script><script src="app.js"></script></body></html>
